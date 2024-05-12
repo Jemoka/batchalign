@@ -4,6 +4,9 @@ import functools
 
 from multiprocessing import Process, freeze_support
 
+import os
+# os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
+
 VERSION="0.3.62"
 NOTES="dutch whisper, bug fix"
 
